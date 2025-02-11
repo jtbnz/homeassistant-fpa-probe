@@ -1,6 +1,8 @@
-# 🔥 Combustion BLE Integration
+# 🔥 Fisher & Paykel Appliances BLE Integration
 
-Integrate [Combustion](https://combustion.inc) predictive probes into Home Assistant.
+Integrate Fisher & Paykel Appliances Predictive Probes (based on [Combustion](https://combustion.inc) predictive probes) into Home Assistant.
+
+Reuse all the work done by https://github.com/legrego/homeassistant-combustion I am only changing the text fields - all the credit goes to https://github.com/legrego
 
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]](LICENSE)
@@ -26,11 +28,11 @@ Platform | Description
 
 ## Configuration
 
-There is currently no configuration required for this integration. Once the integration discovers your Combustion device(s), it will prompt you to add them on the Integrations page.
+There is currently no configuration required for this integration. Once the integration discovers your Fisher & Paykel Appliances device(s), it will prompt you to add them on the Integrations page.
 
 ## Supported devices
 
-This integration supports reading temperature and battery data from Combustion's [Predictive Thermometer](https://combustion.inc/products/predictive-thermometer).
+This integration supports reading temperature and battery data from Fisher & Paykel Appliances's [Predictive Thermometer](https://www.fisherpaykel.com/nz/accessories/cooking-accessories/wireless-temperature-sensor-wtsc1-82765.html).
 
 This integration can read data from a probe directly, or via a Meatnet repeater such as the [Range-Extending Booster](https://combustion.inc/products/long-range-predictive-thermometer) or [Range-Extending Display](https://combustion.inc/products/range-extending-display).
 
@@ -42,11 +44,13 @@ If you want to contribute to this please read the [Contribution guidelines](CONT
 
 ## Credits
 
+https://github.com/legrego/homeassistant-combustion who credits:
+
 Combustion, Inc. for their wonderful [documentation](https://github.com/combustion-inc/combustion-documentation) and [code samples](https://github.com/combustion-inc/combustion-ios-ble).
 
 
 ***
-
+[Fisher & Paykel Appliances]: https://www.fisherpaykel.com/
 [combustion]: https://combustion.inc/
 [license-shield]: https://img.shields.io/github/license/legrego/homeassistant-combustion.svg?style=flat
 [maintenance-shield]: https://img.shields.io/badge/maintainer-Larry%20Gregory%20@legrego-blue.svg?style=flat
