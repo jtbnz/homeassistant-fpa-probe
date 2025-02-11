@@ -1,6 +1,6 @@
 {
-    "name": "Combustion",
-    "filename": "combustion.zip",
+    "name": "FPA-Probe",
+    "filename": "fpa-probe.zip",
     "hide_default_branch": true,
     "homeassistant": "2023.8.0",
     "render_readme": true,
